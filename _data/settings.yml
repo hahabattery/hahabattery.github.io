@@ -10,8 +10,8 @@ color_scheme: auto # You can choose three modes auto, light, and dark. By defaul
 # Navigation Settings
 menu__settings:
   menu__items:
-    - title: 'Home'
-      url: '/'
+    # - title: 'Home'
+    #   url: '/'
     - title: 'Blog'
       url: '/blog/'
     - title: 'Authors'
