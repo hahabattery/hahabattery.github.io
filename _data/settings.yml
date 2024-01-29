@@ -71,7 +71,7 @@ tag__settings:
 #-------------------------------
 # Author Section Settings
 author__section:
-  enable: true
+  enable: false
   author__section__title: Hello, my name is Alena. I’m reviewer and content creator.
   author__section__description: I’m a published content creator, brand copywriter, photographer, and social media content creator and manager. I help brands connect with their customers by developing engaging content that entertains, educates, and offers value to their audience.
   aurhor__section__button__text: More About Me
