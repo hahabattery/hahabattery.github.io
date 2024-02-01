@@ -3,7 +3,7 @@
 ---
 layout: page
 title: ElastiCache
-permalink: /datastore/redis/elasticache
+permalink: /datastore/redis/elasticache/
 ---
 
 

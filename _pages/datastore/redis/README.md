@@ -2,8 +2,8 @@
 
 ---
 layout: page
-title: About
-permalink: /datastore/redis
+title: Redis
+permalink: /datastore/redis/
 ---
 
  * netflix redis, memcached
