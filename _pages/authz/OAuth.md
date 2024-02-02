@@ -1,4 +1,8 @@
-
+---
+layout: page
+title: OAuth
+permalink: /authz/
+---
 
 # OAuth Authorization Server
 
