@@ -2,9 +2,9 @@
 layout: page
 title: Redis
 permalink: /datastore/redis/
-author: alena
+author: alena <!-- not working -->
 image: '/images/16.jpg'
-tags: [lifestyle, video]
+tags: [lifestyle, video] <!-- not working -->
 ---
 
  * netflix redis, memcached
