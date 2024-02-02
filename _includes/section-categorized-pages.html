@@ -1,6 +1,7 @@
 <!-- {% if site.data.settings.author__section.enable == true %} -->
 <!-- begin section-categorized-pages -->
 <!-- list jekyll pages here -->
+<section>
 {% for page in site.pages %}
   {% if page.layout == 'page' %}
     <div class="col col-12 col-md-6 col-lg-4">
@@ -16,5 +17,6 @@
     </div>
   {% endif %}
 {% endfor %}
+</section>
 <!-- end section-categorized-pages -->
 <!-- {% endif %} -->
