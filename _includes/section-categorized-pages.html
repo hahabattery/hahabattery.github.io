@@ -1,0 +1,20 @@
+<!-- {% if site.data.settings.author__section.enable == true %} -->
+<!-- begin section-categorized-pages -->
+<!-- list jekyll pages here -->
+{% for page in site.pages %}
+  {% if page.layout == 'page' %}
+    <div class="col col-12 col-md-6 col-lg-4">
+      <div class="section-categorized-pages__item">
+        <a href="{{ page.url | prepend: site.baseurl }}" class="section-categorized-pages__image">
+          <img class="lazy" data-src="{{ page.image }}" alt="{{ page.title }}">
+        </a>
+        <h2 class="section-categorized-pages__title">
+          <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+        </h2>
+        <p class="section-categorized-pages__description">{{ page.description }}</p>
+      </div>
+    </div>
+  {% endif %}
+{% endfor %}
+<!-- end section-categorized-pages -->
+<!-- {% endif %} -->
