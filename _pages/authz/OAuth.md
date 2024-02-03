@@ -1,6 +1,7 @@
 ---
 layout: page
 title: OAuth
+description: OAuth에 대한 전반적인 내용을 정리한다.
 permalink: /authz/
 category: authz
 ---
