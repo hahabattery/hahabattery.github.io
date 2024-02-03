@@ -6,6 +6,7 @@ title: Categories
 
 {% assign categories = site.pages | map: 'category' | uniq %}
 
+<div class="container">
 {% for category in categories %}
 <!-- check category is not null and empty -->
     {% if category %}
@@ -19,3 +20,4 @@ title: Categories
         </ul>
     {% endif %}
 {% endfor %}
+</div>
