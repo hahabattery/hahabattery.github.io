@@ -4,6 +4,8 @@ title: OAuth
 description: OAuth에 대한 전반적인 내용을 정리한다.
 permalink: /authz/
 category: authz
+author: wonchang
+date: 2019-09-14 15:01:35 +0300
 ---
 
 # OAuth Authorization Server
