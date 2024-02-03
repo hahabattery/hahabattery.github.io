@@ -26,20 +26,6 @@ layout: default
       {% if page.date %}
         <time class="page__date" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: site.date_format }}</time>
       {% endif %}
-        
-      
-    </div>
-        
-      <!-- show image -->
-      {% if page.image %}
-        <img class="lazy" data-src="{{site.baseurl}}{{page.image}}" alt="{{page.title}}">
-      {% endif %}
-      {% if page.date %}
-        <time class="page__date" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: site.date_format }}</time>
-      {% endif %}
-      {% if page.author %}
-        <span class="page__author">{{ page.author }}</span>
-      {% endif %}
     </div>
   
     {% if page.video_embed %}

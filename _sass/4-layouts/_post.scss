@@ -69,7 +69,8 @@
   color: var(--text-alt-color);
 }
 
-.post__meta {
+.post__meta,
+.page__meta {
   display: inline-flex;
   align-items: center;
   margin-bottom: 32px;
