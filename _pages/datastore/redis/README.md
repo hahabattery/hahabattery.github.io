@@ -5,6 +5,7 @@ permalink: /datastore/redis/
 author: alena
 image: '/images/16.jpg'
 tags: [lifestyle, video]
+category: datastore
 ---
 
  * netflix redis, memcached

@@ -7,12 +7,15 @@ title: Categories
 {% assign categories = site.pages | map: 'category' | uniq %}
 
 {% for category in categories %}
-    <h2>{{ category }}</h2>
-    <ul>
-        {% for page in site.pages %}
-        {% if page.category == category %}
-            <li><a href="{{ page.url }}">{{ page.title }}</a></li>
-        {% endif %}
-        {% endfor %}
-    </ul>
+<!-- check category is not null and empty -->
+    {% if category %}
+        <h2>{{ category }}</h2>
+        <ul>
+            {% for page in site.pages %}
+            {% if page.category == category %}
+                <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+            {% endif %}
+            {% endfor %}
+        </ul>
+    {% endif %}
 {% endfor %}
