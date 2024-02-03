@@ -26,6 +26,10 @@ menu__settings:
         title: 'Contact'
       - url: '/elements/'
         title: 'Elements'
+      - url: '/tags/'
+        title: 'Tags'
+      - url: '/categories/'
+        title: 'Categories'
 
 
 #-------------------------------

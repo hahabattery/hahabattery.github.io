@@ -2,6 +2,7 @@
 layout: page
 title: OAuth
 permalink: /authz/
+category: authz
 ---
 
 # OAuth Authorization Server
