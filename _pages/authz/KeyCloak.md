@@ -3,6 +3,7 @@ layout: page
 title: Keycloak
 permalink: /authz/keycloak
 category: authz
+author: wonchang
 ---
 Keycloak의 페이지를 입맛에 맞게 변경하는 방법을 공부 중… ← Apps/Authentication 을 참조할 것.
 

@@ -1,6 +1,6 @@
 ---
 username: wonchang
-name: Wonchang Song
+name: WonChang Song
 image: '/images/author/profile-by-ai-240203.png'
 cover:
 location: Seoul

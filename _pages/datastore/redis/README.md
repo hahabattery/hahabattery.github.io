@@ -2,7 +2,7 @@
 layout: page
 title: Redis
 permalink: /datastore/redis/
-author: alena
+author: wonchang
 tags: [lifestyle, video]
 category: datastore
 ---
@@ -19,6 +19,20 @@ category: datastore
    * http://www.redisgate.com/redis/configuration/redis_conf_list.php
 
 
+# Encoding
+
+```
+redis-cli set kr "홍길동"
+OK
+redis-cli get kr 
+"\xed\x99\x8d\xea\xb8\xb8\xeb\x8f\x99"
+```
+
+한글 인코딩이 깨지지 않은채 실제 저장했던 데이터를 보고 싶으면 --raw 옵션을 사용하면 한글 인코딩이 깨지지 않은 데이터를 볼 수 있다.
+```
+redis-cli --raw get kr
+홍길동
+```
 
 # 파일저장방식
 
