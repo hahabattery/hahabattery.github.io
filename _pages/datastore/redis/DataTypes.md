@@ -1,16 +1,20 @@
 ---
 layout: page
-title: Redis
+title: Redis Datatypes
 description: I will summarize the data types that I dealt with while using Redis.
 permalink: /datastore/redis/datatypes
 author: wonchang
 category: datastore
-date: 2024-02-05 10:43:22 +0900
+date: 2024-02-05 10:43:22+0900
 ---
 
 
 
 # Sorted Set
+### use case
+* ranking
+* first-come, first-served purchase 
+ 
 
 ### score
 According to the [Redis documentation](https://redis.io/commands/zadd/), a sorted set score is:
