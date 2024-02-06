@@ -144,17 +144,17 @@ public void $methodName$() throws Exception {
 
 ### Extract (추출)
  * 변수 추출
-   * 메서드선택후 Ctrl + Alt + V 하면 리턴타입이 설정됨.
-   * 하드코딩된 문자열을 선택후 Ctrl + Alt + V 하면 외부 변수로 분리
+   * 메서드선택후 Ctrl(Cmd) + Alt + V 하면 리턴타입이 설정됨.
+   * 하드코딩된 문자열을 선택후 Ctrl(Cmd) + Alt + V 하면 외부 변수로 분리
 
  * 메소드의 아규먼트 추출
-   * 메소드의 아규먼트 선택후 Ctrl + Alt + V
+   * 메소드의 아규먼트 선택후 Ctrl(Cmd) + Alt + V
 
  * 파라미터 추출하기 (Extract -> Parameter)
-   * 파라미터로 추출할 값을 선택후 Ctrl + Alt + p
+   * 파라미터로 추출할 값을 선택후 Ctrl(Cmd) + Alt + p
 
  * 메서드 추출
-   * 함수로 추출할 코드라인을 선택후 Ctrl + Alt + M
+   * 함수로 추출할 코드라인을 선택후 Ctrl(Cmd) + Alt + M
 
  * 이너클래스 추출
    * F6
@@ -195,13 +195,13 @@ public void $methodName$() throws Exception {
 
 ### 코드 가독성
  * reformat
-   * Shift+Ctrl+Alt+L
+   * Shift+Ctrl(Cmd)+Alt+L
 
  * 상수에 대해서 접근할 때, static import를 통해서 가독성을 높인다.
    * Alt + Enter Static Import 선택
 
  * inline variable
-   * Ctrl + Alt + N 로 불필요한 변수를 삭제
+   * Ctrl(Cmd) + Alt + N 로 불필요한 변수를 삭제
 
 
 # 찾기
