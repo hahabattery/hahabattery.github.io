@@ -7,7 +7,8 @@ category: tools
 ---
 
 
-
+ * Cmd + Shift + B 
+   + 정의로 이동 (dependency injection된 객체를 생성한 곳으로 이동할 때 유용)
 
  * Shift + Ctrl + A 나 ⇧⌘A
    * Find Action 처리할 수 있는 액션을 검색
