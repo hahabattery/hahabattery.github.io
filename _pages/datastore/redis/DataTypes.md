@@ -26,7 +26,7 @@ the string representation of a double precision floating point number.
 allows the representation of numbers between 10−308 and 10308, with full 15–17 decimal digits precision.
 
 ### tiebreaker
-Basically, Redis Rank (ZSet) sorts based on the score, and if there are tiebreakers, it sorts again based on the value. Redis does not provide support for other tiebreaker criteria, so it needs to be handled at the server application level.
+Basically, Redis Rank (ZSet) sorts based on the score, and if there are tiebreakers, it sorts again based on the key. Redis does not provide support for other tiebreaker criteria, so it needs to be handled at the server application level.
 
 
 
