@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Android Studio
+title: CLion
 permalink: /tools/editors/clion
 author: wonchang
 category: tools
