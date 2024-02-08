@@ -53,17 +53,19 @@ category: messaging
 
  * 존재하지 않는 topic에 대해서 produce 하는 경우에는 default로 topic이 만들어진다.
 ```
-wcsong@ubuntu_test:~/kafka/kafka_2.12-2.0.0$ kafka-console-producer.sh --broker-list 127.0.0.1:90--topic new_topic
->another message
+wcsong@ubuntu_test:~/kafka/kafka_2.12-2.0.0$ kafka-console-producer.sh --broker-list 127.0.0.1:90 --topic new_topic
+another message
+
 [2019-12-26 13:07:31,546] WARN [Producer clientId=console-producer] Error while fetching metadata with correlation id 1 : {new_topic=LEADER_NOT_AVAILABLE} (org.apache.kafka.clients.NetworkClient)
 
->wcsong@ubuntu_test:~/kafka/kafka_2.12-2.0.0$ kafka-topics.sh --zookeeper 127.0.0.1:2181 --list
+wcsong@ubuntu_test:~/kafka/kafka_2.12-2.0.0$ kafka-topics.sh --zookeeper 127.0.0.1:2181 --list
 first_topic
 new_topic
 ```
+
  * 디폴트 설정
    * config/server.properties의 num.partitions=3
-     * topic이 없는 상황에서 topic에 대해서 produce된 경우에 적용되는 default 설정
+     * **topic이 없는 상황에서 topic에 대해서 produce된 경우에** 적용되는 default 설정
 
 
  * kafka-console-consumer를 실행해보지만, 메세지가 전달되지 않았다.
@@ -187,10 +189,10 @@ test
 ### 유용한 기타 명령들
 
  * console producer (key, value 형식)
-```
+```command
 kafka-console-producer.sh --broker-list 127.0.0.1:9092 --topic first_topic --property parse.key=true --property key.separator=,
-> key,value
-> another key,another value
+key,value
+another key,another value
 ```
 
  * console consumer (key, value 형식)
