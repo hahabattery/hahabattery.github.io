@@ -28,8 +28,6 @@ menu__settings:
         title: 'Elements'
       - url: '/tags/'
         title: 'Tags'
-      - url: '/categories/'
-        title: 'Categories'
 
 
 #-------------------------------
