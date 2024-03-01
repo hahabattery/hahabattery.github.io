@@ -1,0 +1,46 @@
+---
+layout: post
+title:  진행할 워크샵
+description:
+date:   2022-12-03 15:01:35 +0300
+author: nolan
+image:  '/images/17.jpg'
+tags:   [aws, workshop]
+tags_color: '#477690'
+---
+
+# 진행할 워크샵
+* https://bit.ly/3FXCBL9
+  + step function 관련 워크샵
+
+
+# 예정
+* https://catalog.workshops.aws/wyld-pets-cognito/en-US
+
+
+# 202312 - https://www.youtube.com/watch?v=04_WY6p1VPY
+
+
+# 진행예정 - Amazon Bedrock 으로 생성형 AI로 챗봇 만들기
+* https://github.com/aws-samples/amazon-bedrock-workshop
+  + Amazon Bedrock 으로 생성형 AI로 챗봇 만들기?
+
+# 진행예정 - Serverless Optimization Workshop (Performance and Cost)
+* https://bit.ly/47lkQk1
+
+
+
+<div class="gallery-box">
+  <div class="gallery gallery--post">
+    <img src="/images/32.jpg" loading="lazy" alt="Mountains">
+    <img src="/images/33.jpg" loading="lazy" alt="Woman">
+    <img src="/images/34.jpg" loading="lazy" alt="Subway">
+    <img src="/images/35.jpg" loading="lazy" alt="City">
+  </div>
+  <em>Gallery / <a href="https://unsplash.com/" target="_blank">Unsplash</a></em>
+</div>
+
+
+
+<p><iframe src="https://player.vimeo.com/video/148003889?h=d36b8b4cbb" loading="lazy" width="640" height="360" frameborder="0" allowfullscreen></iframe></p>
+
