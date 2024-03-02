@@ -1,18 +1,15 @@
 ---
 layout: post
-title:  Implementing Search with Amazon OpenSearch Service
-description:
-date:   2022-12-03 15:01:35 +0300
-author: nolan
+title:  AWS CDK Worksohp
+description: 워크샵을 진행해보고 내용을 요약한다.
+date:   2024-03-02 15:01:35 +0900
+author: wcsong
 image:  '/images/17.jpg'
 tags:   [aws, workshop]
 tags_color: '#477690'
 ---
-아래 워크샵은 매우 간단한 시나리오를 설명한다.
 
-[Amazon OpenSearch Service로 검색 구현하기](https://catalog.us-east-1.prod.workshops.aws/workshops/de4e38cb-a0d9-4ffe-a777-bf00d498fa49/ko-KR)
-
-
+[AWS CDK Workshop](cdkworkshop.com)
 
 
 <div class="gallery-box">

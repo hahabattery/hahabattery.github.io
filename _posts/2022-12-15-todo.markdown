@@ -9,6 +9,8 @@ tags:   [aws, workshop]
 tags_color: '#477690'
 ---
 
+
+
 # 진행할 워크샵
 * https://bit.ly/3FXCBL9
   + step function 관련 워크샵
