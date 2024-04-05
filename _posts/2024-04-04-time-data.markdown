@@ -1,0 +1,11 @@
+---
+layout: post
+title: time data
+description:
+date:   2022-12-03 15:01:35 +0300
+author: nolan
+image:  '/images/17.jpg'
+tags:   [jdbc, mysql]
+tags_color: '#477690'
+---
+
