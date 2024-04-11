@@ -1,0 +1,28 @@
+---
+layout: post
+title: time data
+description:
+date:   2022-12-03 15:01:35 +0300
+author: nolan
+image:  '/images/17.jpg'
+tags:   [jdbc, mysql]
+tags_color: '#477690'
+---
+
+absctraction
+
+캐싱은 웹 서비스를 제공하는 데 있어서 필수적인 요소로 자리잡았다. 하지만, 캐싱의 동작은 여러 레이어에 걸쳐서 동작하기 때문에, 쉽게 이해하지 못하는 부분도 있다. 
+
+캐싱의 여러가지 동작의 특성을 이해하고
+관련해서 동작하는 기술적인 상세한 부분을 정리한다.
+
+
+### 클라이언트 사이드의 동작
+
+구현은 HTTP 프로토콜 표준에서 사용하는 “Last-Modified” 태그나 E-Tag를 이용하면 캐슁을 구현할 수 있다.
+아래와 같이 Client가 HTTP GET을 “Last-Modified” 값과 함께 보냈을 때, 컨텐츠가 변화가 없으면 REST 컴포넌트는 “304 Not Modified”를 리턴하면 Client는 자체 캐쉬에 저장된 값을 사용하게 된다.
+
+![](/images/blogging/2024/client-side-caching-304.png)
+
+
+
